@@ -129,29 +129,29 @@ unilidar_py/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/build
 .PHONY : unilidar_py/fast
 
-examples/python_interface.o: examples/python_interface.cpp.o
-.PHONY : examples/python_interface.o
+interface/python_interface.o: interface/python_interface.cpp.o
+.PHONY : interface/python_interface.o
 
 # target to build an object file
-examples/python_interface.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o
-.PHONY : examples/python_interface.cpp.o
+interface/python_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o
+.PHONY : interface/python_interface.cpp.o
 
-examples/python_interface.i: examples/python_interface.cpp.i
-.PHONY : examples/python_interface.i
+interface/python_interface.i: interface/python_interface.cpp.i
+.PHONY : interface/python_interface.i
 
 # target to preprocess a source file
-examples/python_interface.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.i
-.PHONY : examples/python_interface.cpp.i
+interface/python_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.i
+.PHONY : interface/python_interface.cpp.i
 
-examples/python_interface.s: examples/python_interface.cpp.s
-.PHONY : examples/python_interface.s
+interface/python_interface.s: interface/python_interface.cpp.s
+.PHONY : interface/python_interface.s
 
 # target to generate assembly for a file
-examples/python_interface.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.s
-.PHONY : examples/python_interface.cpp.s
+interface/python_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/unilidar_py.dir/build.make CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.s
+.PHONY : interface/python_interface.cpp.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... unilidar_py"
-	@echo "... examples/python_interface.o"
-	@echo "... examples/python_interface.i"
-	@echo "... examples/python_interface.s"
+	@echo "... interface/python_interface.o"
+	@echo "... interface/python_interface.i"
+	@echo "... interface/python_interface.s"
 .PHONY : help
 
 

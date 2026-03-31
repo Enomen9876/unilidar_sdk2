@@ -1,0 +1,34 @@
+# === C++ / CMake Build Files ===
+bin/
+build/
+lib/x86_64/
+lib/aarch64/
+*.o
+*.a
+*.so
+*.out
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+install_manifest.txt
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# === IDE / OS Specific ===
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+Thumbs.db

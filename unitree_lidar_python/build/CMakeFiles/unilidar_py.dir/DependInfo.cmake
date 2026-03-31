@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/examples/python_interface.cpp" "CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o" "gcc" "CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o.d"
+  "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/interface/python_interface.cpp" "CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o" "gcc" "CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -20,9 +20,10 @@ link_directories(lib/${CMAKE_SYSTEM_PROCESSOR})
 SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/lib/${CMAKE_SYSTEM_PROCESSOR})
 
+
 # Vytvoří soubor např. unilidar_py.cpython-310-x86_64-linux-gnu.so
 pybind11_add_module(unilidar_py 
-    examples/python_interface.cpp
+    interface/python_interface.cpp
 )
 
 # Linkování SDK knihovny k python modulu
@@ -31,4 +32,6 @@ pybind11_add_module(unilidar_py
 target_link_libraries(unilidar_py PRIVATE libunilidar_sdk2.a)
 
 # Nastavení výstupu modulu do kořene nebo bin složky, aby šel snadno importovat
-set_target_properties(unilidar_py PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR})
+set_target_properties(unilidar_py PROPERTIES 
+    LIBRARY_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/python_examples"
+)

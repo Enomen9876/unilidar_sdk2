@@ -69,36 +69,36 @@ include CMakeFiles/unilidar_py.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/unilidar_py.dir/flags.make
 
-CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o: CMakeFiles/unilidar_py.dir/flags.make
-CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o: ../examples/python_interface.cpp
-CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o: CMakeFiles/unilidar_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o -MF CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o.d -o CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o -c "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/examples/python_interface.cpp"
+CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o: CMakeFiles/unilidar_py.dir/flags.make
+CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o: ../interface/python_interface.cpp
+CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o: CMakeFiles/unilidar_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o -MF CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o.d -o CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o -c "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/interface/python_interface.cpp"
 
-CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/examples/python_interface.cpp" > CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.i
+CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/interface/python_interface.cpp" > CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.i
 
-CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/examples/python_interface.cpp" -o CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.s
+CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/interface/python_interface.cpp" -o CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.s
 
 # Object files for target unilidar_py
 unilidar_py_OBJECTS = \
-"CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o"
+"CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o"
 
 # External object files for target unilidar_py
 unilidar_py_EXTERNAL_OBJECTS =
 
-../unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/examples/python_interface.cpp.o
-../unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/build.make
-../unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module ../unilidar_py.cpython-310-x86_64-linux-gnu.so"
+../python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/interface/python_interface.cpp.o
+../python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/build.make
+../python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so: CMakeFiles/unilidar_py.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/dell/OneDrive - České vysoké učení technické v Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared module ../python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unilidar_py.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/strip /mnt/c/Users/dell/OneDrive\ -\ České\ vysoké\ učení\ technické\ v\ Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/unilidar_py.cpython-310-x86_64-linux-gnu.so
+	/usr/bin/strip /mnt/c/Users/dell/OneDrive\ -\ České\ vysoké\ učení\ technické\ v\ Praze/Dokumenty/DATA/Osobní/Projekty/unilidar_sdk2/unitree_lidar_python/python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so
 
 # Rule to build all files generated by this target.
-CMakeFiles/unilidar_py.dir/build: ../unilidar_py.cpython-310-x86_64-linux-gnu.so
+CMakeFiles/unilidar_py.dir/build: ../python_examples/unilidar_py.cpython-310-x86_64-linux-gnu.so
 .PHONY : CMakeFiles/unilidar_py.dir/build
 
 CMakeFiles/unilidar_py.dir/clean:
